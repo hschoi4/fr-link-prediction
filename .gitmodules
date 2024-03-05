@@ -1,0 +1,6 @@
+[submodule "CompGCN"]
+	path = CompGCN
+	url = git@github.com:hschoi4/CompGCN.git
+[submodule "french-kg"]
+	path = french-kg
+	url = https://github.com/hschoi4/french-kg.git
