@@ -1,0 +1,121 @@
+Id	Sub Nm	Rel Nm	Obj Nm	Annotation
+102744	arriver	r_manner	tranquillement	-1
+1450061	chocolat noir	r_color	grise	-1
+1654243	psychiatrie	r_lemma	neurologie	1
+1045504	humoriste	r_lieu	école	-1
+54472	processus	r_syn	disposition	-1
+620984	acné	r_domain	sciences	-1
+825590	frégate	r_color	vert>40056	-1
+755246	entasser	r_patient	voiture	-1
+1017737	abats	r_domain	cuisine>143757	1
+761738	étinceler	r_syn	flambeau	-1
+924986	bienheureux	r_has_part	sexe>218086	-1
+697212	impair	r_domain	médecine	-1
+937846	show	r_sentiment	dégoût	-1
+597057	Constance Chlore	r_domain	anatomie	-1
+20713	myosotis	r_color	noir>40056	-1
+691209	gouttière	r_associated	outil	-1
+1220100	décoller	r_syn	résoudre	-1
+1322169	Bastille	r_isa	événement	1
+721024	total	r_associated	géométrie	-1
+1290377	anarchiste	r_sentiment	bonheur	-1
+818801	apostat	r_associated	rendre	-1
+1657778	yhwh	r_telic_role	naître	-1
+1521087	huîtrier fuligineux	r_associated	blanche	-1
+477257	vinaigrette	r_associated	Cuisine	1
+129590	souimanga	r_lieu	cuisine>96851	-1
+486073	dommage	r_sentiment	être humain	-1
+1069871	honnir	r_manner	gentiment	-1
+738394	Hector	r_has_part	bouche>112609	-1
+407991	sanglant	r_sentiment	être vivant>123933	-1
+1671114	cruche	r_has_part	bouche>112609	-1
+1674284	carlin	r_domain	ornithologie	-1
+311198	bolchevique	r_has_part	squelette>112609	-1
+1140290	poubelle	r_carac	riche	-1
+1225283	garrigue	r_lieu_action	se reposer	-1
+910011	essaim	r_sentiment	admiration	-1
+545783	déplacé	r_isa	métier	-1
+1114538	innocent	r_sentiment	respect	-1
+164773	onde	r_carac	basse	1
+385042	albatros	r_color	rose>40056	-1
+1532977	thon>68467	r_color	rose>40056	-1
+869660	hiérarchie	r_associated	commun	-1
+1023643	tamiser	r_domain	beaux-arts	-1
+1316167	huile d'olive	r_domain	zoologie	-1
+414546	ride	r_meaning/glose	géologie	1
+188493	mascarade	r_syn	plat	-1
+598636	envoyé	r_syn	ficelle	-1
+529747	bicyclette	r_color	rouge>40056	-1
+1671384	éthanol	r_domain	physiologie	-1
+1625442	uvb	r_domain	maladies	-1
+660706	sous	r_meaning/glose	clef	-1
+1421645	salut	r_manner	facilement	-1
+1155230	publication	r_hypo	sodomie	-1
+1312332	Creuse	r_lieu-1	centrale nucléaire	-1
+349978	inciser	r_domain	vétérinaire	1
+855223	Lara	r_has_part	sexe>218086	-1
+551478	colon	r_has_instance	Seine	-1
+868552	musarder	r_sentiment	agacement	-1
+1534404	lettre de l'alphabet	r_has_instance	Henry	-1
+1103411	Gottfried Wilhelm Leibniz	r_isa	oeuvre	1
+926654	abcès	r_color	vert>40056	-1
+1151997	sauver	r_syn	fournir	-1
+454097	moussaka	r_sentiment	admiration	-1
+964968	ratte	r_isa	préparation culinaire	1
+486574	sac à main	r_object>mater	tissu>94609	1
+1131474	Friedrich Dürrenmatt	r_isa	nom de famille	0
+858643	France	r_lieu_action	se masturber	-1
+1711887	rêveur	r_agent-1	mourir>126720	-1
+1670870	brider	r_domain	cuisine>143757	-1
+1168883	mystifier	r_syn	tirer	-1
+1662971	parasites	r_domain	entomologie	1
+180761	porte-monnaie	r_isa	lieu>134218	-1
+1188261	péquenaud	r_has_part	seins	-1
+1135499	moralité	r_syn	carotte	-1
+1380588	couture	r_carac	grosse	-1
+1526949	requin>68467	r_domain	cuisine>143757	-1
+1077873	formaliste	r_sentiment	honte	-1
+773101	discontinuité	r_associated	séisme	-1
+111035	filière	r_sentiment	tendresse	-1
+545916	congeler	r_manner	bien	-1
+1224310	permanent	r_has_part	squelette>112609	-1
+83311	renard	r_color	beige	-1
+1221314	série	r_carac	bonne	-1
+1654166	Rose	r_lieu-1	centrale nucléaire	-1
+1517672	fox terrier	r_domain	zootechnie	0
+1549702	jalousie>122549	r_conseq	viol	-1
+807125	conjuration	r_associated	astronomie	-1
+349975	inciser	r_domain	anatomie	1
+883700	nappe	r_color	jaune>40056	-1
+1691227	flocon	r_carac	humide	1
+422470	bourgeois	r_syn	pigeon	-1
+502402	champs	r_sentiment	peur	-1
+600502	Matisse	r_isa	personnage mythologique	-1
+1713969	uvule	r_patient-1	pousser	-1
+1196250	cacahuète	r_domain	nutrition	1
+541980	système solaire	r_sentiment	peur	-1
+448952	montre	r_carac	classique	-1
+1275838	salement	r_syn	doucement	-1
+87016	Picard	r_lieu-1	squelette>112609	-1
+395596	trace	r_syn	physiologie	-1
+1478010	avocat>71637	r_color	blanc>40056	-1
+1055426	artillerie	r_sentiment	espoir	-1
+1695658	névrose	r_isa	religion	-1
+783143	réjoui	r_syn	actif	-1
+1305455	Théodora	r_has_part	sexe>218086	-1
+1716131	vitamine	r_isa	pays>145735	-1
+53061	ronfler	r_sentiment	métier	-1
+185717	atrabilaire	r_has_part	oeil>330323	-1
+1316215	huile d'olive	r_color	blanc>40056	-1
+378904	hydrocéphalie	r_sentiment	lentille	-1
+1590524	chien abandonné	r_domain	zootechnie	0
+1553355	bouche>112609	r_domain	biochimie	-1
+38186	vertige	r_has_part	squelette>112609	-1
+231582	bavardage	r_sentiment	injustice	-1
+102348	suggérer	r_agent	tout le monde	-1
+151355	gypaète barbu	r_domain	taxonomie	-1
+800209	tromblon	r_carac	non vivant	-1
+46719	imposition	r_associated	important	-1
+1126837	partiel	r_domain	pharmacie	-1
+148893	Hémiptères	r_lieu	garrigue	1
+297144	saligaud	r_has_part	bouche>112609	-1

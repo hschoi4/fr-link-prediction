@@ -1,0 +1,121 @@
+Id	Sub Nm	Rel Nm	Obj Nm	Annotation
+99997	autour	r_lieu	mer>218698	-1
+551255	continu	r_anto	différent	-1
+1169624	fredaine	r_sentiment	agacement	-1
+644530	gourde	r_has_part	sexe>218086	-1
+803069	débauché	r_syn	instable	0
+1386107	broche	r_lieu	penderie	-1
+879504	agnathe	r_meaning/glose	botanique	-1
+473920	Irma	r_has_part	squelette>112609	-1
+68762	mastiff	r_domain	ornithologie	-1
+1388936	mise	r_lemma	débiter	-1
+1540763	bouteille>89628	r_lieu_action	renverser	-1
+754944	luminescence	r_isa	presse	-1
+1003449	cameraman	r_has_part	système nerveux	-1
+1527570	café>113547	r_time	midi	0
+553068	lèvres	r_color	blanc>40056	-1
+14368	couvert	r_isa	oeuvre de fiction	-1
+707359	cliché	r_meaning/glose	médecine	-1
+173618	échauder	r_manner	délicatement	-1
+415984	abréger	r_sentiment	embarras	-1
+450698	excommunier	r_domain	cuisine	-1
+1425506	castor	r_syn	paille	-1
+1589769	Seven	r_isa	personnage de religion	-1
+701076	bref	r_syn	gaillard	-1
+1460076	ouverte	r_locution	trou à rat	-1
+1478067	frégate>119825>136307	r_lieu	nuage	-1
+1013725	bousculer	r_sentiment	difficile	-1
+459200	décider	r_agent	tout le monde	-1
+1153565	bénévole	r_has_part	bouche>112609	-1
+1479087	véhicule à moteur	r_associated	exact	-1
+904845	Toscane	r_lieu	France>22243	-1
+1028390	courber	r_associated	squelette	-1
+399342	fuel	r_isa	élément chimique	0
+206735	magnésium	r_color	rose>40056	-1
+141037	conseil	r_isa	lieu>134218	-1
+1109419	prostration	r_domain	zoologie	-1
+1653096	Colibri	r_carac	nocturne	-1
+295080	névraxe	r_lieu-1	hygroma	-1
+1666177	consommation	r_meaning/glose	avoir	-1
+1471356	top model	r_associated	bouche>112609	-1
+1268536	curcuma	r_color	coloré	-1
+102744	arriver	r_manner	tranquillement	-1
+1450061	chocolat noir	r_color	grise	-1
+1654243	psychiatrie	r_lemma	neurologie	1
+1045504	humoriste	r_lieu	école	-1
+54472	processus	r_syn	disposition	-1
+620984	acné	r_domain	sciences	-1
+825590	frégate	r_color	vert>40056	-1
+755246	entasser	r_patient	voiture	-1
+1017737	abats	r_domain	cuisine>143757	1
+761738	étinceler	r_syn	flambeau	1
+924986	bienheureux	r_has_part	sexe>218086	-1
+697212	impair	r_domain	médecine	-1
+937846	show	r_sentiment	dégoût	-1
+597057	Constance Chlore	r_domain	anatomie	-1
+20713	myosotis	r_color	noir>40056	-1
+691209	gouttière	r_associated	outil	1
+1220100	décoller	r_syn	résoudre	-1
+1322169	Bastille	r_isa	événement	1
+721024	total	r_associated	géométrie	0
+1290377	anarchiste	r_sentiment	bonheur	-1
+818801	apostat	r_associated	rendre	0
+1657778	yhwh	r_telic_role	naître	-1
+1521087	huîtrier fuligineux	r_associated	blanche	-1
+477257	vinaigrette	r_associated	Cuisine	1
+129590	souimanga	r_lieu	cuisine>96851	-1
+486073	dommage	r_sentiment	être humain	-1
+1069871	honnir	r_manner	gentiment	-1
+738394	Hector	r_has_part	bouche>112609	-1
+407991	sanglant	r_sentiment	être vivant>123933	-1
+1671114	cruche	r_has_part	bouche>112609	-1
+1674284	carlin	r_domain	ornithologie	-1
+311198	bolchevique	r_has_part	squelette>112609	-1
+1140290	poubelle	r_carac	riche	-1
+1225283	garrigue	r_lieu_action	se reposer	-1
+910011	essaim	r_sentiment	admiration	-1
+545783	déplacé	r_isa	métier	-1
+1114538	innocent	r_sentiment	respect	-1
+164773	onde	r_carac	basse	1
+385042	albatros	r_color	rose>40056	-1
+1532977	thon>68467	r_color	rose>40056	1
+1301319	ravager	r_agent	pluie	-1
+412025	ambigu	r_syn	incohérent	1
+964919	ratte	r_associated	reproduction	-1
+455851	rein	r_lieu	bassin	1
+672199	morue	r_mater>object	forum	-1
+229953	inclinaison	r_associated	route	-1
+1704630	poitevin	r_domain	zootechnie	-1
+1311753	Voltaire	r_has_part	bouche>112609	-1
+664236	poltron	r_has_part	sexe>218086	-1
+1320556	lame	r_has_part	pâte	-1
+795888	hydrophobe	r_has_part	oeil>330323	-1
+1534819	Pulp Fiction	r_isa	jeu vidéo	1
+5925	Antonio Allegri	r_domain	spectacles	-1
+557786	fascination	r_sentiment	curiosité	1
+371385	meuble	r_has_instance	Diane	-1
+255311	organisateur	r_sentiment	curiosité	-1
+572515	alouette des champs	r_domain	zootechnie	-1
+92150	classement	r_sentiment	admiration	-1
+1660945	étouffement	r_lemma	Amérique	-1
+218264	Icare	r_has_part	cou	-1
+1717443	cnidaires	r_lemma	moelle spinale	-1
+1042026	curriculum vitae	r_lieu_action	habiter	-1
+1016958	gonfler	r_syn	recouvrir	-1
+453932	saladier	r_carac	fermé	-1
+838792	hématies	r_domain	chimie	0
+155822	distinction	r_syn	teinte	-1
+1438103	méléna	r_domain	maladies	1
+1477893	avocat>87286	r_color	blanc>40056	-1
+435081	se reproduire	r_syn	composer	-1
+1719647	huile>11358	r_color	beige	-1
+1095731	vociférer	r_sentiment	agacement	1
+690428	Castellane	r_isa	prénom féminin	1
+1109535	abstinence	r_associated	raide	-1
+1404911	trompe	r_color	tacheté	-1
+442741	démettre	r_meaning/glose	marine	-1
+740399	colvert	r_color	orange>40056	-1
+81226	cocaïne	r_associated	botanique	1
+212213	civelle	r_domain	ornithologie	-1
+1464715	pôle nord	r_isa	pays>145735	1
+1265119	banquier	r_has_instance	Paul	-1

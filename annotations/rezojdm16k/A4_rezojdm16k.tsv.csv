@@ -1,0 +1,121 @@
+Id	Sub Nm	Rel Nm	Obj Nm	Annotation
+1301319	ravager	r_agent	pluie	1
+412025	ambigu	r_syn	incohérent	1
+964919	ratte	r_associated	reproduction	1
+455851	rein	r_lieu	bassin	1
+672199	morue	r_mater>object	forum	0
+229953	inclinaison	r_associated	route	1
+1704630	poitevin	r_domain	zootechnie	1
+1311753	Voltaire	r_has_part	bouche>112609	-1
+664236	poltron	r_has_part	sexe>218086	-1
+1320556	lame	r_has_part	pâte	-1
+795888	hydrophobe	r_has_part	oeil>330323	-1
+1534819	Pulp Fiction	r_isa	jeu vidéo	1
+5925	Antonio Allegri	r_domain	spectacles	-1
+557786	fascination	r_sentiment	curiosité	1
+371385	meuble	r_has_instance	Diane	1
+255311	organisateur	r_sentiment	curiosité	-1
+572515	alouette des champs	r_domain	zootechnie	1
+92150	classement	r_sentiment	admiration	-1
+1660945	étouffement	r_lemma	Amérique	-1
+218264	Icare	r_has_part	cou	-1
+1717443	cnidaires	r_lemma	moelle spinale	-1
+1042026	curriculum vitae	r_lieu_action	habiter	0
+1016958	gonfler	r_syn	recouvrir	-1
+453932	saladier	r_carac	fermé	1
+838792	hématies	r_domain	chimie	-1
+155822	distinction	r_syn	teinte	1
+1438103	méléna	r_domain	maladies	1
+1477893	avocat>87286	r_color	blanc>40056	-1
+435081	se reproduire	r_syn	composer	-1
+1719647	huile>11358	r_color	beige	-1
+1095731	vociférer	r_sentiment	agacement	1
+690428	Castellane	r_isa	prénom féminin	1
+1109535	abstinence	r_associated	raide	-1
+1404911	trompe	r_color	tacheté	-1
+442741	démettre	r_meaning/glose	marine	-1
+740399	colvert	r_color	orange>40056	-1
+81226	cocaïne	r_associated	botanique	1
+212213	civelle	r_domain	ornithologie	-1
+1464715	pôle nord	r_isa	pays>145735	-1
+1265119	banquier	r_has_instance	Paul	-1
+1667782	flic	r_carac	bon	1
+1066639	satisfait	r_has_part	sexe>218086	1
+326498	pointilleux	r_carac-1	chef	1
+373413	craquer	r_manner	doucement	-1
+1023651	tamiser	r_domain	géographie	-1
+405203	se garer	r_manner	gentiment	-1
+483345	boa	r_color	blanc>40056	1
+64839	railler	r_verbe-action	attaque	1
+38183	vertige	r_has_part	bouche>112609	-1
+1240170	camouflet	r_associated	transport	-1
+108446	Louhans	r_lieu	Nord-Pas-de-Calais	-1
+812048	inassouvi	r_associated	anorexie	-1
+465446	se préparer	r_associated	corriger	-1
+242499	se couvrir	r_sentiment	peur	1
+789680	oisif	r_isa	métier	-1
+1291586	épanoui	r_sentiment	espoir	-1
+15807	bouclier	r_has_part	fil	-1
+312976	doigts	r_carac	dur	-1
+514657	prompt	r_syn	querelleur	-1
+1321410	basset	r_has_part	dent>45311	1
+1299666	pauvreté	r_lemma	nom	0
+303945	intensité	r_associated	médecine	-1
+322127	superficiel	r_syn	hâblerie	-1
+151124	tapette	r_domain	sports	-1
+876856	génocide	r_associated	viande	-1
+976907	élévation	r_syn	divinité	1
+1440014	skateboard	r_domain	technique	1
+856683	frison	r_domain	chiens	-1
+400507	pipistrelle	r_associated	mariage	-1
+1684879	Maria Magdalena von Losch	r_color	noir>40056	-1
+226339	claque	r_associated	voix	-1
+1717094	cylindre	r_isa	individu	-1
+1126257	chanterelle	r_sentiment	admiration	-1
+708550	pétunia	r_has_part	squelette>112609	-1
+1430869	majeur	r_sentiment	curiosité	-1
+746055	desservir	r_syn	tenir	-1
+278767	amarante	r_syn	anneau	-1
+1485975	morceau de viande	r_patient-1	laver	1
+1298969	répression	r_carac	petite	1
+185715	atrabilaire	r_has_part	sexe>218086	-1
+83311	renard	r_color	beige	1
+1221314	série	r_carac	bonne	1
+1654166	Rose	r_lieu-1	centrale nucléaire	-1
+1517672	fox terrier	r_domain	zootechnie	1
+1549702	jalousie>122549	r_conseq	viol	-1
+807125	conjuration	r_associated	astronomie	-1
+349975	inciser	r_domain	anatomie	1
+883700	nappe	r_color	jaune>40056	1
+1691227	flocon	r_carac	humide	1
+422470	bourgeois	r_syn	pigeon	-1
+502402	champs	r_sentiment	peur	-1
+600502	Matisse	r_isa	personnage mythologique	-1
+1713969	uvule	r_patient-1	pousser	-1
+1196250	cacahuète	r_domain	nutrition	1
+541980	système solaire	r_sentiment	peur	-1
+448952	montre	r_carac	classique	1
+1275838	salement	r_syn	doucement	-1
+87016	Picard	r_lieu-1	squelette>112609	-1
+395596	trace	r_syn	physiologie	-1
+1478010	avocat>71637	r_color	blanc>40056	-1
+1055426	artillerie	r_sentiment	espoir	-1
+1695658	névrose	r_isa	religion	-1
+783143	réjoui	r_syn	actif	-1
+1305455	Théodora	r_has_part	sexe>218086	-1
+1716131	vitamine	r_isa	pays>145735	-1
+53061	ronfler	r_sentiment	métier	-1
+185717	atrabilaire	r_has_part	oeil>330323	-1
+1316215	huile d'olive	r_color	blanc>40056	1
+378904	hydrocéphalie	r_sentiment	lentille	-1
+1590524	chien abandonné	r_domain	zootechnie	1
+1553355	bouche>112609	r_domain	biochimie	-1
+38186	vertige	r_has_part	squelette>112609	-1
+231582	bavardage	r_sentiment	injustice	-1
+102348	suggérer	r_agent	tout le monde	-1
+151355	gypaète barbu	r_domain	taxonomie	1
+800209	tromblon	r_carac	non vivant	1
+46719	imposition	r_associated	important	1
+1126837	partiel	r_domain	pharmacie	-1
+148893	Hémiptères	r_lieu	garrigue	1
+297144	saligaud	r_has_part	bouche>112609	-1
