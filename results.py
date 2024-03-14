@@ -7,6 +7,7 @@ from sklearn.metrics import cohen_kappa_score
 import seaborn as sns
 import argparse
 from pathlib import Path
+import os
 
 import matplotlib.pyplot as plt
 
@@ -100,6 +101,9 @@ if __name__ == '__main__':
     a3 = pd.read_csv(f'annotations/{args.dataset}/A3_{args.dataset}.tsv', delimiter="\t")
     a4 = pd.read_csv(f'annotations/{args.dataset}/A4_{args.dataset}.tsv', delimiter="\t")
 
+    if not os.path.exists('figures1'):
+        os.makedirs("figures1")
+
     get_heatmap(a1, a2, a3, a4, False)
 
     if args.dataset == 'rezojdm16k':
@@ -116,5 +120,5 @@ if __name__ == '__main__':
 
 
     # Get triples candidates according to the threshold
-    candidates = df.loc[df['Conf'] >= threshold]
+    candidates = df.loc[df['Conf'] >= args.threshold]
     #print(candidates)
