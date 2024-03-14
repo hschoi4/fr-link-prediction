@@ -101,8 +101,8 @@ if __name__ == '__main__':
     a3 = pd.read_csv(f'annotations/{args.dataset}/A3_{args.dataset}.tsv', delimiter="\t")
     a4 = pd.read_csv(f'annotations/{args.dataset}/A4_{args.dataset}.tsv', delimiter="\t")
 
-    if not os.path.exists('figures1'):
-        os.makedirs("figures1")
+    if not os.path.exists('figures'):
+        os.makedirs("figures")
 
     get_heatmap(a1, a2, a3, a4, False)
 
