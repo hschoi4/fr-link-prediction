@@ -3,7 +3,6 @@
 import os
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 import collections
 import dataclasses
@@ -11,20 +10,6 @@ from typing import Set, Any
 import xml.etree.ElementTree as ET
 import argparse
 from pathlib import Path
-from random import randint
-
-@dataclasses.dataclass
-class triples:
-    train: Any
-    valid: Any
-    test: Any
-
-@dataclasses.dataclass
-class Nodes:
-    train: Set = dataclasses.field(default_factory=set)
-    valid: Set = dataclasses.field(default_factory=set)
-    test: Set = dataclasses.field(default_factory=set)
-    intersection : Set = dataclasses.field(default_factory=set)
 
 def get_entities(df_nodes):
     """
@@ -58,50 +43,7 @@ def get_lf_families():
             dic[gc.attrib['id']] = [ggc.attrib['id'] for ggc in gc]
     return dic
 
-def get_default_format(df, entities, relations):
-    """
-        Put labels for relations and entities
-    """
-    ent_map = dict(zip(entities['id'].tolist(), entities['label'].tolist()))
-    rel_map = dict(zip(relations['id'].tolist(), relations['name'].tolist()))
-
-    df['type'] = df['type'].map(rel_map)
-    df['source'] = df['source'].map(ent_map)
-    df['target'] = df['target'].map(ent_map)
-
-    #df = df.drop(columns='id')
-
-    return df
-
-def filter_set(df, train):
-    train_ent = set(train['source'].tolist() + train['target'].tolist())
-    train_rel = set(train['type'].tolist())
-
-    df = df[df['source'].isin(train_ent)]
-    df = df[df['target'].isin(train_ent)]
-    df = df[df['type'].isin(train_rel)]
-
-    return df
-
-def split(df_triples, status):
-    """
-        Divide triples into train, valid, test sets (80%, 10%, 10%)
-        #Return triples and nodes in each set
-        Status for random state
-    """
-    train, valid, test = np.split(df_triples.sample(frac=1, random_state=status), [int(.8*len(df_triples)), int(.9*len(df_triples))])
-    valid, test = filter_set(valid, train), filter_set(test, train)
-    triples = triples(train, valid, test)
-
-    # nodes = Nodes()
-    # nodes.train = set(train["source"]).union(set(train["target"]))
-    # nodes.valid = set(valid["source"]).union(set(valid["target"]))
-    # nodes.test = set(test["source"]).union(set(test["target"]))
-    # nodes.intersection =  nodes.train.intersection(nodes.valid).intersection(nodes.test)
-
-    return triples
-
-def get_triples():
+def get_files():
 
     #nodes
     nodes = pd.read_csv("data/rlf/originals/01-lsnodes.csv", sep="\t")
@@ -152,20 +94,15 @@ def get_triples():
     entities['label'].to_csv(pathdir / 'entities.txt', index=True, sep="\t", header=False)
     relations['name'].to_csv(pathdir / 'relations.txt', index=True, sep="\t", header=False)
 
-    print('Create all triplets file')
-    triples = get_default_format(triples, entities, relations)
+    print('Create all triples file')
+    ent_map = dict(zip(entities['id'].tolist(), entities['label'].tolist()))
+    rel_map = dict(zip(relations['id'].tolist(), relations['name'].tolist()))
+
+    triples['type'] = triples['type'].map(rel_map)
+    triples['source'] = triples['source'].map(ent_map)
+    triples['target'] = triples['target'].map(ent_map)
+
     triples.to_csv(pathdir / 'triples.txt', index=False, sep="\t")
-
-    print('Divide into train, validation, test sets and apply filters on validation and test sets')
-    data = split(triples, args.seed)
-    data.train.to_csv(pathdir / 'train.txt', index=False, sep="\t", header=False)
-    data.valid.to_csv(pathdir / 'valid.txt', index=False, sep="\t", header=False)
-    data.test.to_csv(pathdir / 'test.txt', index=False, sep="\t", header=False)
-
-    print('Create all triplets files without those removed')
-    filter_triples = pd.concat([data.train, data.valid, data.test])
-    filter_triples.to_csv(pathdir / 'filter_triples.txt', index=False, sep="\t", header=False)
-
 
     return triples
 
@@ -179,4 +116,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # triples
-    triples = get_triples()
+    triples = get_files()
