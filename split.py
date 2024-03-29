@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 
-import os
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 import collections
 import dataclasses
 from typing import Set, Any
-import xml.etree.ElementTree as ET
 import argparse
-from pathlib import Path
 from random import randint
 
 @dataclasses.dataclass
@@ -42,12 +37,12 @@ def split(dataset, status):
     valid, test = filter_set(valid, train), filter_set(test, train)
     data = triples(train, valid, test)
 
-    data.train.to_csv(pathdir / 'train.txt', index=False, sep="\t", header=False)
-    data.valid.to_csv(pathdir / 'valid.txt', index=False, sep="\t", header=False)
-    data.test.to_csv(pathdir / 'test.txt', index=False, sep="\t", header=False)
+    data.train.to_csv(f"./data/{dataset}/train.txt", index=False, sep="\t", header=False)
+    data.valid.to_csv(f"./data/{dataset}/valid.txt", index=False, sep="\t", header=False)
+    data.test.to_csv(f"./data/{dataset}/test.txt", index=False, sep="\t", header=False)
 
     filter_triples = pd.concat([data.train, data.valid, data.test])
-    filter_triples.to_csv(pathdir / 'filter_triples.txt', index=False, sep="\t", header=False)
+    filter_triples.to_csv(f"./data/{dataset}/filter_triples.txt", index=False, sep="\t", header=False)
 
     return triples
 
@@ -55,7 +50,7 @@ def split(dataset, status):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Parser For Arguments', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-    parser.add_argument('-data', dest='dataset', default='lf', help='Dataset to use, default: lf')
+    parser.add_argument('-dataset', dest='dataset', default='lf', help='Dataset to use, default: lf')
     parser.add_argument('-seed', dest='seed', default=randint(0, 10000000), type=int, help='Random seed')
 
     args = parser.parse_args()
