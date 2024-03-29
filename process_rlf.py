@@ -110,7 +110,7 @@ def get_files():
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Parser For Arguments', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-    parser.add_argument('-data', dest='dataset', default='lf', help='Dataset to use, default: lf')
+    parser.add_argument('-dataset', dest='dataset', default='lf', help='Dataset to use, default: lf')
     parser.add_argument('-seed', dest='seed', default=randint(0, 10000000), type=int, help='Random seed')
 
     args = parser.parse_args()
