@@ -14,14 +14,14 @@ def replace_name(name):
 
     raff = '>'.join(raff)
 
-    # hs = pd.concat([batches[0], batches[1], batches[2]])
-    # hs['Obj Nm'] = hs['Obj Nm'].map(replace_name)
-    # hs['Sub Nm'] = hs['Sub Nm'].map(replace_name)
+    # a1 = pd.concat([batches[0], batches[1], batches[2]])
+    # a1['Obj Nm'] = a1['Obj Nm'].map(replace_name)
+    # a1['Sub Nm'] = a1['Sub Nm'].map(replace_name)
 
     return raff
 
 def get_batches(dataset):
-    df = pd.read_csv(f"predictions/{args.dataset}_all_preds.csv", sep='\t')
+    df = pd.read_csv(f"predictions/{dataset}_all_preds.csv", sep='\t')
 
     if dataset == 'rezojdm16k':
         df = df.loc[(df['Short. Path.'] >= 3) & (df['Sub Nm'] != df['Obj Nm'])]

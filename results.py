@@ -92,7 +92,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Parser For Arguments', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('-dataset', dest='dataset', type=str, default="rezojdm16k", help='Dataset to use, default: rezojdm16k')
-    parser.add_argument('-threshold', dest='threshold', type=int, default=0.95, help='Dataset to use, default: rezojdm16k')
+    parser.add_argument('-threshold', dest='threshold', type=float, default=0.95, help='Dataset to use, default: rezojdm16k')
 
     args = parser.parse_args()
 
@@ -104,7 +104,7 @@ if __name__ == '__main__':
     if not os.path.exists('figures'):
         os.makedirs("figures")
 
-    get_heatmap(a1, a2, a3, a4, False)
+    #get_heatmap(a1, a2, a3, a4, False)
 
     if args.dataset == 'rezojdm16k':
         preds = pd.read_csv(f'predictions/{args.dataset}_all_preds.csv', delimiter="\t")
@@ -116,9 +116,9 @@ if __name__ == '__main__':
         preds['Id'] = preds.index
         df = preds.loc[(preds['Short. Path.'] == float('inf'))].loc[preds['Sub Nm'] != preds['Obj Nm']]
 
-    get_correlation(df, a1, a2, a3, a4, False)
+    #get_correlation(df, a1, a2, a3, a4, False)
 
 
     # Get triples candidates according to the threshold
     candidates = df.loc[df['Conf'] >= args.threshold]
-    #print(candidates)
+    candidates.to_csv(f'{args.dataset}_candidates.csv',sep="\t")
