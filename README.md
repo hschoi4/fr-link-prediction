@@ -8,7 +8,7 @@ We use the models from Mirzapour et al. 2022 within the framework OpenKE and the
 
 - CUDA version: 12.1
 - Pytorch: 2.2.0
-- python = 3.10
+- python: 3.10
 
 Get the right version for pytorch and cuda here: https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
 
