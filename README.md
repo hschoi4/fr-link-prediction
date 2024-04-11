@@ -6,6 +6,14 @@ We use the models from Mirzapour et al. 2022 within the framework OpenKE and the
 
 ## Installation
 
+Make sure to clone this repository with its submodules
+
+```
+git clone --recurse-submodules https://github.com/hschoi4/fr-link-prediction
+```
+
+### Requirements
+
 - CUDA version: 12.1
 - Pytorch: 2.2.0
 - python: 3.10
@@ -14,7 +22,7 @@ Get the right version for pytorch and cuda here: https://pytorch-geometric.readt
 
 ```
 conda create -n fr-lp python=3.10
-pip install torch_geometric ordered_set carbontracker wandb my-torch tabulate
+pip install torch_geometric ordered_set carbontracker wandb my-torch tabulate numpy
 pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
 pip install torch==2.2
 ```
@@ -58,7 +66,7 @@ RL-fr represents senses of a word into different nodes linked by copolysemy rela
 
 Run the following commands:
 ```bash
-cd french-kg/trainrs/OpenKE/
+cd french-kg/trainers/OpenKE/
 mkdir checkpoint
 mkdir result
 cd openke
