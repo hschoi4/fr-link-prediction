@@ -32,9 +32,6 @@ Get the originals files:
 Script `process_dump_jdm.py` applies filters to obtain a intermediate subgraph of JeuxDeMots. The code comes from the original one in Mirzapour et al. 2022 but does not compile. The intermediate subgraph is available and can be used to obtain the final graph, RezoJDM16k, with the following commands:
 
 ```
-set -e
-mkdir data/rezojdm16k/
-mkdir rezojdm16k/originals
 cp french-kg/resources/datasets/Filtered_Nodes_Edges/nodes.csv french-kg/resources/datasets/Filtered_Nodes_Edges/relations.csv data/rezojdm16k/originals/.
 cp french-kg/resources/datasets/Triplets/relations_ids_names.csv data/rezojdm16k/originals/relations-ids-names.csv
 ```
@@ -53,7 +50,7 @@ RL-fr represents senses of a word into different nodes linked by copolysemy rela
 
 ### Division train, valid, test sets
 
-`python3 split.py -dataset <rezojdm16k or rlf> -seed <int>`
+`python3 split.py -dataset <rezojdm16k or rlf/lffam-cp> -seed <int>`
 
 ## Training models
 
