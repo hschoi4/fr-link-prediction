@@ -76,7 +76,7 @@ bash make.sh
 Convert into openKE format and run the models. (Do not forget to change the path in `run_models.py` to access OpenKE trainers.)
 
 ```python3
-python3 french-kg/openKE.py -dataset <dataset_name>
+python3 french-kg/get_openke.py -dataset <dataset_name>
 python3 french-kg/n-n.py -dataset <dataset_name>
 python3 french-kg/run_models.py -dataset <dataset_name>
 ```
