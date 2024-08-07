@@ -37,7 +37,7 @@ Get the originals files:
 
 ### JeuxDeMots and RezoJDM16k
 
-Script `process_dump_jdm.py` applies filters to obtain a intermediate subgraph of JeuxDeMots. The code comes from the original one in Mirzapour et al. 2022 but does not compile. The intermediate subgraph is available and can be used to obtain the final graph, RezoJDM16k, with the following commands:
+Script `process_dump_jdm.py` applies filters to obtain a intermediate subgraph of JeuxDeMots. The code comes from the original one in Mirzapour et al. 2022 but does not compile. The output files of this script are available and can be used to obtain the final graph, RezoJDM16k, with the following commands:
 
 ```
 cp french-kg/resources/datasets/Filtered_Nodes_Edges/nodes.csv french-kg/resources/datasets/Filtered_Nodes_Edges/relations.csv data/rezojdm16k/originals/.
@@ -102,3 +102,21 @@ unzip predictions.zip
 Make annotation batches `annotations.py`
 
 Get the results (process annotations, make figures and get candidates according to a threshold): `results.py -dataset <dataset name>`
+
+## Cite this work
+
+When using this work, please cite the following paper:
+
+```
+@inproceedings{choi-etal-2024-beyond,
+    title = "Beyond Model Performance: Can Link Prediction Enrich {F}rench Lexical Graphs?",
+    author = "Choi, Hee-Soo and Trivedi, Priyansh and Constant, Mathieu and Fort, Karen and Guillaume, Bruno",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.208",
+    pages = "2329--2341",
+}
+```
